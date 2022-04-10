@@ -42,6 +42,12 @@ npm start
 
 Which will start a server at `http://localhost:8080`, proxying API requests to the replica at port 8000.
 
+```bash
+# stop the running replica 
+dfx stop
+```
+
+
 ### Note on frontend environment variables
 
 If you are hosting frontend code somewhere without using DFX, you may need to make one of the following adjustments to ensure your project does not fetch the root key in production:
